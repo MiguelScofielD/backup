@@ -4,8 +4,8 @@ from datetime import datetime
 
 # Configurações dos bancos de dados e backup
 DATABASES = [
-    {"name": "rev2_0413_3_so", "user": "postgres", "host": "localhost", "port": "5432"},
-    {"name": "rev2_0518_2_so", "user": "postgres", "host": "localhost", "port": "5432"},
+    {"name": "banco1", "user": "postgres", "host": "localhost", "port": "5432"},
+    {"name": "banco2", "user": "postgres", "host": "localhost", "port": "5432"},
     # Adicione mais bancos de dados conforme necessário
 ]
 
